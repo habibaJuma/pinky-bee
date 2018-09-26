@@ -1,0 +1,108 @@
+
+/* .jumbotron{
+  /* background-image: url("/images/kool.jpeg"); */
+   /* background-color: orchid;  */
+   /* text-align: center; */
+   /* color:black; */
+/* } */
+body{
+  /* background-image: url("../images/kool.jpeg"); */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+}
+a{
+  text-decoration: none;
+}
+.navigation .nav{
+  position: absolute;
+  width: 100%;
+  padding: 30px 0px;
+  margin: 0 auto;
+  z-index: 6;
+
+}
+
+.navigation .nav ul li{
+  list-style: none;
+  display:inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 2em;
+  color: #fff;
+}
+.navigation .nav ul li a.navigation .nav ul li a{
+  color: #fff!important;
+
+}
+.navigation .nav ul li a:hover{
+  border-bottom: 2px solid#50c6c6;
+}
+.hero-container{
+  width: 100%;
+  height: 55vh;
+}
+.hero{
+  background-image: url("../images/kool.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 55vh;
+}
+
+.hero .overlay{
+  height: inherit;
+  width: inherit;
+  background: #000;
+  opacity: .4;
+  z-index: 2;
+  position: absolute
+}
+.hero .hero-text{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;  
+  position:  relative;
+  top: 30%;
+  left: 95px;
+  color: #fff;
+  z-index: 5;
+
+}
+/*
+.header{
+  background:url(../images/makeup_recall.jpg)no-repeat;
+ min-height:590px;
+ background-size:cover;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ -ms-background-size:cover;
+*/
+.footer{
+  background-color: #0e1aa5;
+  color: white;
+  padding: 70px;
+  font-weight: 400;
+  padding-right: 15px;
+  margin: 0px 0px 10px 0px;
+}
+/*
+.no-margin{
+  margin: 0 auto;
+}
+
+.
+#founder{
+  /* text-align: center; */
+  /* padding-right:70%; */
+  padding-left: 5%;
+/*
+}
+.button-box{
+  position: absolute;
+  left: 10px;
+  top: 10px
+}
+*/
